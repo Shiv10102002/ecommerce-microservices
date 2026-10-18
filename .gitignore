@@ -1,0 +1,116 @@
+############################################
+# 🚀 JAVA / MAVEN
+############################################
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+############################################
+# 🧠 SPRING BOOT
+############################################
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos de ambiente
+.env
+.env.*
+application-local.yml
+application-dev.yml
+application-test.yml
+
+############################################
+# 🐳 DOCKER / CONTAINERS
+############################################
+# Volumes e dados persistidos
+docker-data/
+database/data/
+**/database/data/
+volumes/
+tmp/
+
+############################################
+# 🐘 DATABASES (PostgreSQL, etc.)
+############################################
+*.sql
+*.dump
+*.bak
+
+############################################
+# ⚡ KAFKA / ZOOKEEPER
+############################################
+kafka-logs/
+zookeeper-data/
+zookeeper-logs/
+
+############################################
+# ☁️ STORAGE (MinIO / S3 local)
+############################################
+minio-data/
+storage/
+uploads/
+
+############################################
+# 🛠️ IDEs
+############################################
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VSCode
+.vscode/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+############################################
+# 🧪 TESTES / RELATÓRIOS
+############################################
+/reports/
+/test-output/
+/surefire-reports/
+
+############################################
+# 📦 BUILD TOOLS
+############################################
+
+# Maven Wrapper (opcional ignorar ou não)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle (caso use futuramente)
+.gradle/
+build/
+
+############################################
+# 💻 SISTEMA OPERACIONAL
+############################################
+.DS_Store
+Thumbs.db
+
+############################################
+# 🔐 SEGURANÇA
+############################################
+*.key
+*.pem
+*.crt
+
+############################################
+# 📁 OUTROS
+############################################
+*.tmp
+*.swp
+*.swo
